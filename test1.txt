@@ -86,10 +86,14 @@ git tag-- its a highlighter which highlight some commit. it dosen't create anoth
 comm--- git tag <any name>
 
 git tag --list
+git push --tag
 
+git push origin (tag name)
 
+#deletion of a tag
+git tag delete (tag name)
 
+deletion of a tag from remote repo
+git push origin --delete <name> 
 
-
-
-
+#git rewrites commit from one branch into another branch and its a useful alternative to merging because its give us a cleaner repo and can help us shoot and bug faster
