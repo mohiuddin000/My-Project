@@ -82,6 +82,10 @@ git stash clear -- (deleting all the stashing at onec)
 
 git stash -m "added stash 2" (message)
 
+git tag-- its a highlighter which highlight some commit. it dosen't create another commit.
+comm--- git tag <any name>
+
+git tag --list
 
 
 
