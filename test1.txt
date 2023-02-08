@@ -26,6 +26,7 @@ branch merging and resoliving
 git merge (branch name )
  
 rm -rf .git ----- clear .git file
+ comm----git init 
  
  
  
@@ -97,3 +98,4 @@ deletion of a tag from remote repo
 git push origin --delete <name> 
 
 #git rewrites commit from one branch into another branch and its a useful alternative to merging because its give us a cleaner repo and can help us shoot and bug faster
+ git rebase branch_name
